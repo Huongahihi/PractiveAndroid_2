@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huongtlu.thuchanh_two.RadioActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+       <RadioGroup
+           android:id="@+id/hi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:textStyle="bold"
+               android:text="Cream"
+               android:textSize="24sp"
+               android:layout_height="wrap_content"
+               android:id="@+id/a"/>
+           <RadioButton
+               android:text="Sugar"
+               android:textStyle="bold"
+               android:textSize="24sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/aa"/>
+       </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnpay2"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColor="#ff00"
+        android:layout_height="wrap_content"
+        android:text="Pay" />
+
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+</LinearLayout>
